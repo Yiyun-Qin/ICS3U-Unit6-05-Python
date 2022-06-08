@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Created by Yiyun Qin
-# Created in May 2022
+# Created in June 2022
 # This is the math program, calculating the average of marks
 
 
@@ -43,7 +43,7 @@ def main():
     marks.pop()
     # call functions
     average_mark = average(marks)
-    print("The average is {}%".format(average_mark))
+    print("\nThe average is {:,.2f}%".format(average_mark))
     print("\nDone.")
 
 
